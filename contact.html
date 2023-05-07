@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Path of Light Yoga Studio:: Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Path of Light Yoga Studio
+       Author: Krys
+       Date: 3-31-23-->
+	   	<link rel="stylesheet" href="yoga.css" />
+		<!-- lets the html file actually look like what you wrote in the CSS -->
+
+    </head>
+	
+ <body>
+ 		<nav><ul><b><li><a href="index.html">Home</a></li> <li><a href="classes.html">Classes</a> </li><li><a href="schedule.html">Schedule</a> </li><li><a href="contact.html">Contact</a></li></b></ul></nav>
+		<!-- The navgation bar. currently the only two that work should be home and classes, schedule. -->
+		<header class="content"><a href="index.html"><h1>Path of Light Yoga Studio</h1></a></header>
+	
+<div id="wrapper">
+	<section>
+		<h2>Contact Path of Light Yoga Studio</h2>
+			<p>Required fields are marked with an asterisk*</p>
+		<form action="https://webdevbasics.net/scripts/yoga.php">
+		<!-- sends form to speific site --->
+		<label for="myName">* Name</label>
+		<input type="text" id="myName" required="required">
+		<label for="myEmail">* Email</label>
+		<input type="email" name="myEmail" id="myEmail" required="required">
+		<!-- boxes for typing name and email, set to required. Does not seem to be registering id and name attrabiutes? --->
+		<label>How did you hear about us?</label>
+		<input type="text" list="howDidYouHearAboutUs">
+		 <datalist id="howDidYouHearAboutUs">
+                    <option>
+                        Google
+                    </option>
+                    <option>
+                        Bing
+                    </option>
+                    <option>
+                        Facebook
+                    </option>
+                    <option>
+                        Friend
+                    </option>
+                    <option>
+                        Radio Ad
+                    </option>
+                </datalist>
+	<!-- Gives  options for where you could have heard from--->
+		<label for="myComments">* Comments</label>
+		<textarea id="myComments" name="myComments" rows="2" cols="20" required> </textarea>
+		<!--Big text box to type comments, set to required --->
+		<input type="submit" value="Send now!">
+		<!-- Button to submit--->
+		</form>
+	</section>
+		</div>
+</body></html>
